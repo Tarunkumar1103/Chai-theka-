@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR 34 CHAI THEKA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        .independence-day {
+            background-color: #ff9933; /* Saffron color */
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        header {
+            background-color: #ff9933; /* Saffron color */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .marquee-sale {
+            width: 100%;
+            background-color: #ff9933;
+            color: white;
+            font-size: 24px;
+            padding: 10px 0;
+            overflow: hidden;
+            white-space: nowrap; /* Ensures the text stays in one line */
+            box-sizing: border-box; /* Ensure padding doesn't push content out of view */
+        }
+        .marquee-sale span {
+            display: inline-block;
+            padding-left: 100%; /* Start position off-screen */
+            animation: marquee 10s linear infinite; /* Adjust duration for animation */
+        }
+        @keyframes marquee {
+            from { transform: translateX(0); }
+            to { transform: translateX(-100%); }
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+            color: black;
+            font-size: 20px;
+            line-height: 1.5;
+        }
+        .thanks {
+            font-family: 'Brush Script MT', cursive;
+            font-size: 30px;
+            color: green;
+            animation: moveThanks 5s linear infinite; /* Moderate speed */
+        }
+        @keyframes moveThanks {
+            from { transform: translateX(-100%); }
+            to { transform: translateX(100%); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="independence-day">
+        🇮🇳 Happy Independence Day! 🇮🇳
+    </div>
+
+    <header>
+        <h1>HR 34 CHAI THEKA</h1>
+    </header>
+
+    <div class="marquee-sale">
+        <span>SALE! SALE! SALE!</span>
+    </div>
+
+    <section>
+        <h2>Offer! Offer!</h2>
+        <p>Buy any 2 hot items and get 1 free.</p>
+        <p>On cold coffee, there is no off.</p>
+    </section>
+
+    <section class="thanks">
+        <p>Thanks!</p>
+    </section>
+
+</body>
+</html>
